@@ -13,7 +13,13 @@ body {
 	margin: 0 auto;
 }
 #formMain {}
-
+h1{
+	text-align: center;
+}
+form {}
+.float{
+	float:left;
+}
 
 /* --- iPad Width --- */
 @media screen and (min-width: 480px){
