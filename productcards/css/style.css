@@ -13,11 +13,15 @@ body{
 	width: 100%;
 	background-color: #fff;
 }
+h1{
+	text-align: center;
+	padding-top: 20px;
+}
 .card{
 	border: 1px solid lightblue;
 	width: 100%;
 	float:left;
-	margin: 0 auto;
+	margin: 0 auto 20px;
 }
 .title{
 	border: 1px dotted lightgray;
@@ -37,13 +41,12 @@ section h4 {
 @media screen and (min-width: 480px){
 
 	.card {
-		width: 49%;
-		min-width: 290px;
-		max-width: 300px;
-		margin: 0 auto;
+		width: 48%;
+		margin-left: 5px;
 	}
 	.container{
 		width: 90%;
+		margin: 0 auto;
 	}
 }
 
@@ -52,5 +55,6 @@ section h4 {
 
 	.card {
 		width: 30%;
+		margin-left: 15px;
 	}
 }
