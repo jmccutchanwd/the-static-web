@@ -36,13 +36,8 @@ form {
 	font-weight: bold;
 	color: #2980b9;
 }
-button{
-	background-color: #2980b9;
-	color: white;
-	padding: 5px 10px;
-	border-radius: 15px;
-}
-input[type=text], input[type=number], select {
+input[type=text], input[type=number], input[type=email], 
+input[type=tel], input[type=url], select {
     width: 100%;
     padding: 10px 10px;
     margin: 8px 0;
@@ -51,13 +46,29 @@ input[type=text], input[type=number], select {
     border-radius: 5px;
     box-sizing: border-box;
 }
-margin-top: 5px;
+input[type=checkbox], input[type=radio] {
+	margin-top: 15px;
+}
+button{
+	background-color: #2980b9;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 15px;
+	font-size: 2.0em;
 }
 button:hover {
     background-color: #27ae60;
 }
-input[type=checkbox], input[type=radio] {
-	margin-top: 15px;
+#reset{
+	float: right;
+	background-color: rgba(231, 76, 60,1.0);
+	color: white;
+	padding: 5px 10px;
+	border-radius: 15px;
+	font-size: 1.5em;
+}
+#reset:hover {
+	background-color: red;
 }
 
 /* --- iPad Width --- */
