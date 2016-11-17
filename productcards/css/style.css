@@ -1,0 +1,56 @@
+/* --- John McCutchan --- */
+/* --- Mobile First --- */
+
+/* --- Basic styles --- */
+
+html{}
+body{
+	font-family: arial;
+	width: 100%;
+	background-color: #000;
+}
+.container{
+	width: 100%;
+	background-color: #fff;
+}
+.card{
+	border: 1px solid lightblue;
+	width: 100%;
+	float:left;
+	margin: 0 auto;
+}
+.title{
+	border: 1px dotted lightgray;
+}
+section h4 {
+	background-color: darkgray;
+	color: yellow;
+}
+
+.clearfix {
+	clear:both;
+}
+
+/* --- Break points --- */
+
+/* --- iPad Width --- */
+@media screen and (min-width: 480px){
+
+	.card {
+		width: 49%;
+		min-width: 290px;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+	.container{
+		width: 90%;
+	}
+}
+
+/* --- PC Width --- */
+@media screen and (min-width: 660px){
+
+	.card {
+		width: 30%;
+	}
+}
