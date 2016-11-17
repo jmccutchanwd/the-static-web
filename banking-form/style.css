@@ -25,6 +25,7 @@ h1{
 }
 form {
 	background-color: #ecf0f1;
+	border: 3px solid rgba(41, 128, 185,0.3);
 	border-radius: 15px;
 	padding: 15px;
 }
@@ -38,9 +39,10 @@ form {
 button{
 	background-color: #2980b9;
 	color: white;
+	padding: 5px 10px;
 	border-radius: 15px;
 }
-input[type=text], select {
+input[type=text], input[type=number], select {
     width: 100%;
     padding: 10px 10px;
     margin: 8px 0;
@@ -49,10 +51,14 @@ input[type=text], select {
     border-radius: 5px;
     box-sizing: border-box;
 }
-input[type=submit]:hover {
-    background-color: red;
+margin-top: 5px;
 }
-
+button:hover {
+    background-color: #27ae60;
+}
+input[type=checkbox], input[type=radio] {
+	margin-top: 15px;
+}
 
 /* --- iPad Width --- */
 @media screen and (min-width: 480px){
