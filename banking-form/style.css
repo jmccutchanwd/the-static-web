@@ -14,22 +14,45 @@ body {
 .container{
 	background-color: white;
 	width:100%;
+	max-width: 400px;
 	margin: 0 auto;
 	padding: 20px;
 }
-#formMain {}
 h1{
 	text-align: center;
+	font-weight: bold;
+	color: #2980b9;
 }
-form {}
+form {
+	background-color: #ecf0f1;
+	border-radius: 15px;
+	padding: 15px;
+}
 .float{
 	float:left;
+}
+.heavy{
+	font-weight: bold;
+	color: #2980b9;
 }
 button{
 	background-color: #2980b9;
 	color: white;
 	border-radius: 15px;
 }
+input[type=text], select {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #2980b9;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type=submit]:hover {
+    background-color: red;
+}
+
 
 /* --- iPad Width --- */
 @media screen and (min-width: 480px){
