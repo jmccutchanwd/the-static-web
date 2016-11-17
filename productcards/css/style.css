@@ -8,10 +8,15 @@ body{
 	font-family: arial;
 	width: 100%;
 	background-color: #000;
+	box-sizing: border-box;
 }
 .container{
 	width: 100%;
 	background-color: #fff;
+}
+.card_holder{
+	display: flex;
+	align-items: flex-start;
 }
 h1{
 	text-align: center;
@@ -19,9 +24,9 @@ h1{
 }
 .card{
 	border: 1px solid lightblue;
+	display: flex;
+	flex-flow: row wrap;
 	width: 100%;
-	float:left;
-	margin: 0 auto 20px;
 }
 .title{
 	border: 1px dotted lightgray;
@@ -41,8 +46,8 @@ section h4 {
 @media screen and (min-width: 480px){
 
 	.card {
-		width: 48%;
-		margin-left: 5px;
+		width: 40%;
+		margin: auto;
 	}
 	.container{
 		width: 90%;
