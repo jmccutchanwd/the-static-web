@@ -1,4 +1,7 @@
+/* ---John McCutchan --- */
 /* --- Mobile First --- */
+
+/* --- Basic Styles --- */
 
 html {}
 body {
@@ -6,11 +9,13 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	font-family: arial;
 }
 .container{
 	background-color: white;
 	width:100%;
 	margin: 0 auto;
+	padding: 20px;
 }
 #formMain {}
 h1{
@@ -19,6 +24,11 @@ h1{
 form {}
 .float{
 	float:left;
+}
+button{
+	background-color: #2980b9;
+	color: white;
+	border-radius: 15px;
 }
 
 /* --- iPad Width --- */
