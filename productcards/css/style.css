@@ -13,29 +13,39 @@ body{
 	box-sizing: border-box;
 }
 .container{
-	background-color: #fff;
+	background-color: rgba(41, 128, 185,1.0);
 }
 
 h1{
 	text-align: center;
 	padding-top: 20px;
+	color: #fff;
 }
 p {
 	text-align: justify;
 }
-h1, h2, h4, p, header, footer {
+h2, h4, p, header, footer {
 	padding: 0 10px;
+}
+li {
+	font-weight: bold;
+}
+footer {
+	font-size: .7em;
 }
 .card_holder{
 	width: 100%;
 }
 .card{
 	border: 1px solid lightblue;
+	border-radius: 2%;
+	background-color: #fff;
 	width: 96%;
 	margin: 2%;
 }
 .title{
 	border: 1px dotted lightgray;
+	border-radius: 2%;
 }
 section h4 {
 	background-color: darkgray;
@@ -59,15 +69,15 @@ img {
 		width:45%;
 		display: block;
 		float: left;
-		height: 850px;
+		height: 820px;
 	}
 }
 
 /* --- PC Width --- */
-@media screen and (min-width: 905px){
+@media screen and (min-width: 850px){
 	.card {
 		width:29%;
-		height: 905px;
+		height: 850px;
 	}
 	
 }
