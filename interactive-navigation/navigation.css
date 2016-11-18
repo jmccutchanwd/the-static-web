@@ -1,0 +1,51 @@
+/* --- John McCutchan --- */
+
+/* --- JBasic Styles --- */
+
+html{}
+body{
+	font-family: Verdana, Geneva, sans-serif;
+}
+.container{
+	width: 70%;
+	margin: 0 auto;
+}
+nav{}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(44, 62, 80,1.0);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(52, 73, 94,1.0);
+    color:rgba(46, 204, 113,1.0);
+}
+
+li a:focus{
+	padding: 15px 25px;
+}
+
+.right{
+	float:right;
+	font-style: italic;
+}
+
+.right a:focus{
+	padding: 30px 50px;
+}
+
