@@ -6,7 +6,7 @@ The three <span> elements should be displayed as block elements with
 a 1 pixel border and 25 pixel margin on all sides.(Completed)
 
 In the article element with the class n-child, add a 1 pixel border 
-around every even numbered section element.
+around every even numbered section element.(I figured it out :P)
 */
 
 /* --- John McCutchan --- */
@@ -40,3 +40,7 @@ span{
 	border: 1px solid rgba(192, 57, 43,1.0);
 	margin: 25px;
 }
+.n-child > section:nth-child(2n+3){
+	border: 1px solid rgba(192, 57, 43,1.0);
+}
+
