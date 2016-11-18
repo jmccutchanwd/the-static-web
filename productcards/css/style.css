@@ -28,7 +28,9 @@ p {
 }
 .card{
 	border: 1px solid lightblue;
-	width: 100%;
+	width: 96%;
+	height: 700px;
+	margin: 2%;
 }
 .title{
 	border: 1px dotted lightgray;
@@ -37,23 +39,27 @@ section h4 {
 	background-color: darkgray;
 	color: yellow;
 }
-.clearfix {
-	clear: both;
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* --- Break points --- */
 
 /* --- iPad Width --- */
-@media screen and (min-width: 480px){
+@media screen and (min-width: 520px){
 	.card {
-		width:30%;
+		width:45%;
 		display: block;
 		float: left;
 	}
 }
 
 /* --- PC Width --- */
-@media screen and (min-width: 660px){
-
+@media screen and (min-width: 905px){
+	.card {
+		width:29%;
+	}
 	
 }
