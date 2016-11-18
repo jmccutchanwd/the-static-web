@@ -14,6 +14,8 @@ This repository contains the exercises from Part 2 of the Front End Course.
 
 ## CSS
 
+* [Different Styles For Each Article](https://github.com/jmccutchanwd/the-static-web/tree/master/articles) | - [x] In Progress - [ ] Complete 
+
 ***
 
 ## JavaScript
