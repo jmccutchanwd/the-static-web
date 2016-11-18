@@ -15,6 +15,7 @@ This repository contains the exercises from Part 2 of the Front End Course.
 ## CSS
 
 * [Different Styles For Each Article](https://github.com/jmccutchanwd/the-static-web/tree/master/articles) | - [x] In Progress - [ ] Complete 
+* [Using Basic Relationship Selectors](https://github.com/jmccutchanwd/the-static-web/tree/master/css-selectors) | - [x] In Progress - [ ] Complete 
 
 ***
 
