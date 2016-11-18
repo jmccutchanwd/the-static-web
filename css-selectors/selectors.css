@@ -1,6 +1,6 @@
 /* --- Befin Instructions
 
-The header element should have a 1px border. Color, you pick.
+The header element should have a 1px border. Color, you pick.(Done)
 
 Convert the ul in the navigation element into a series of horizontal 
 links with # as the href value, without bullets, and have some space 
@@ -44,10 +44,37 @@ write a CSS selector that makes any text input field have a height of 25px.
 
 /* --- Base Styles --- */
 
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
 header{
 	border: 1px solid rgba(44, 62, 80,1.0);
 }
 
+header ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+	float: left;
+}
+
+header a{
+	display: block;
+    padding: 8px;
+    background-color: rgba(44, 62, 80,1.0);
+    color: #fff;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 
