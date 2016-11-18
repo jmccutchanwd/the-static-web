@@ -67,6 +67,42 @@ p {
 	color: white;
 }
 
+#article-style-3 {
+	background-color: rgba(44, 62, 80,1.0);
+	border: 2px solid white;
+	border-radius: 50px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.6em;
+	line-height: 1.3; 
+}
+#article-style-3 h2, #article-style-3 h6, #article-style-3 p {
+	color: white;
+}
+
+#article-style-4 {
+	background-color: rgba(142, 68, 173,1.0);
+	border: 2px solid white;
+	border-radius: 10px;
+	font-family: Geneva, sans-serif;
+	font-size: 1.0em;
+	line-height: 1.6; 
+}
+#article-style-4 h2, #article-style-4 h6, #article-style-4 p {
+	color: white;
+}
+
+#article-style-5 {
+	background-color: rgba(192, 57, 43,1.0);
+	border: 2px solid white;
+	border-radius: 15%;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.6em;
+	line-height: 1.2; 
+}
+#article-style-5 h2, #article-style-5 h6, #article-style-5 p {
+	color: white;
+}
+
 
 /* --- Media Queries --- */
 
