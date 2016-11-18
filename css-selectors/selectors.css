@@ -16,12 +16,12 @@ colored purple.(Done)
 Any text inside an element with a class of "active" should be colored 
 yellow.(Done)
 
-Section elements should be contained within an article element.
+Section elements should be contained within an article element.(Done)
 
 There are two missing closing tags in this document. Make sure you 
 add them back in. (Found 2)
 
-Make the "I'm red" text colored red
+Make the "I'm red" text colored red.(Done)
 
 Make the "I'm blue" text colored blue
 
@@ -86,6 +86,9 @@ a.disabled{
 }
 .active{
 	color:rgba(241, 196, 15,1.0);
+}
+.blue{
+	color: rgba(41, 128, 185,1.0);
 }
 
 
