@@ -3,29 +3,31 @@
 
 /* --- Basic styles --- */
 
-html{}
+html{
+	margin: 0;
+	padding: 0;
+}
 body{
 	font-family: arial;
-	width: 100%;
 	background-color: #000;
 	box-sizing: border-box;
 }
 .container{
-	width: 100%;
 	background-color: #fff;
 }
-.card_holder{
-	display: flex;
-	align-items: flex-start;
-}
+
 h1{
 	text-align: center;
 	padding-top: 20px;
 }
+p {
+	text-align: justify;
+}
+.card_holder{
+	display: flex;
+}
 .card{
 	border: 1px solid lightblue;
-	display: flex;
-	flex-flow: row wrap;
 	width: 100%;
 }
 .title{
@@ -36,30 +38,23 @@ section h4 {
 	color: yellow;
 }
 
-.clearfix {
-	clear:both;
-}
 
 /* --- Break points --- */
 
 /* --- iPad Width --- */
 @media screen and (min-width: 480px){
-
-	.card {
-		width: 40%;
-		margin: auto;
+	.card_holder{
+		align-items: flex-start;
 	}
-	.container{
-		width: 90%;
-		margin: 0 auto;
+	.card{
+		display: flex;
+		flex: 2;
+		flex-flow: row wrap;
 	}
 }
 
 /* --- PC Width --- */
 @media screen and (min-width: 660px){
 
-	.card {
-		width: 30%;
-		margin-left: 15px;
-	}
+	
 }
