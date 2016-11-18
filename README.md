@@ -36,3 +36,7 @@ This repository contains the exercises from Part 2 of the Front End Course.
 * [Music History 2](https://github.com/jmccutchanwd/musichistory-boilerplate/tree/version-2) | - [x] In Progess - [ ] Complete
 
 ***
+
+## JavaScript
+
+* [Sonnet](https://github.com/jmccutchanwd/the-static-web/tree/master/sonnet) | - [x] In Progess - [ ] Complete
