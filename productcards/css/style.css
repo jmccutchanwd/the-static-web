@@ -24,7 +24,7 @@ p {
 	text-align: justify;
 }
 .card_holder{
-	display: flex;
+	width: 100%;
 }
 .card{
 	border: 1px solid lightblue;
@@ -37,19 +37,18 @@ section h4 {
 	background-color: darkgray;
 	color: yellow;
 }
-
+.clearfix {
+	clear: both;
+}
 
 /* --- Break points --- */
 
 /* --- iPad Width --- */
 @media screen and (min-width: 480px){
-	.card_holder{
-		align-items: flex-start;
-	}
-	.card{
-		display: flex;
-		flex: 2;
-		flex-flow: row wrap;
+	.card {
+		width:30%;
+		display: block;
+		float: left;
 	}
 }
 
