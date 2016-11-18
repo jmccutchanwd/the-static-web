@@ -1,0 +1,88 @@
+/* ---John McCutchan --- */
+/* --- Mobile First --- */
+
+/* --- Basic Styles --- */
+
+html {}
+body {
+	background-color: black;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+.container{
+	background-color: white;
+	width:100%;
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+}
+h1{
+	text-align: center;
+	font-weight: bold;
+	color: #2980b9;
+}
+form {
+	background-color: #ecf0f1;
+	border: 3px solid rgba(41, 128, 185,0.3);
+	border-radius: 15px;
+	padding: 15px;
+}
+.float{
+	float:left;
+}
+.heavy{
+	font-weight: bold;
+	color: #2980b9;
+}
+input[type=text], input[type=number], input[type=email], 
+input[type=tel], input[type=url], select {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #2980b9;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type=checkbox], input[type=radio] {
+	margin-top: 15px;
+}
+button{
+	background-color: #2980b9;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 15px;
+	font-size: 2.0em;
+}
+button:hover {
+    background-color: #27ae60;
+}
+#reset{
+	float: right;
+	background-color: rgba(231, 76, 60,1.0);
+	color: white;
+	padding: 5px 10px;
+	border-radius: 15px;
+	font-size: 1.5em;
+}
+#reset:hover {
+	background-color: red;
+}
+
+/* --- iPad Width --- */
+@media screen and (min-width: 480px){
+
+	.container {
+		width: 70%;
+	}
+}
+
+/* --- PC Width --- */
+@media screen and (min-width: 660px){
+
+	.container {
+		max-width: 600px;
+	}
+}
