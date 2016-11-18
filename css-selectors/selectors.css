@@ -25,7 +25,7 @@ Make the "I'm red" text colored red.(Done)
 
 Make the "I'm blue" text colored blue.(Done)
 
-The sibling h4 of the red element should have a background color of red
+The sibling h4 of the red element should have a background color of red(Done)
 
 The sibling h4 of the blue element should have background color of blue
 
@@ -90,11 +90,14 @@ a.disabled{
 .blue{
 	color: rgba(41, 128, 185,1.0);
 }
+.blue + h4{
+	background-color: rgba(41, 128, 185,1.0);
+}
 .red{
 	color: rgba(192, 57, 43,1.0);
 }
 .red + h4{
-	background-color:yellow;
+	background-color:rgba(192, 57, 43,1.0);
 }
 
 
