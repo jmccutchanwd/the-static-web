@@ -12,5 +12,26 @@ around every even numbered section element.
 /* --- John McCutchan --- */
 
 html{}
-body{}
-.container{}
+body{
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: rgba(231, 76, 60,1.0);
+	box-sizing: border-box;
+}
+.container{
+	width: 90%;
+	background-color: rgba(236, 240, 241,1.0);
+	margin: auto;
+	padding: 20px;
+}
+.lists{}
+h1{
+	color:rgba(192, 57, 43,1.0);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
