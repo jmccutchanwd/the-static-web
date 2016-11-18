@@ -23,13 +23,15 @@ h1{
 p {
 	text-align: justify;
 }
+h1, h2, h4, p, header, footer {
+	padding: 0 10px;
+}
 .card_holder{
 	width: 100%;
 }
 .card{
 	border: 1px solid lightblue;
 	width: 96%;
-	height: 700px;
 	margin: 2%;
 }
 .title{
@@ -38,6 +40,10 @@ p {
 section h4 {
 	background-color: darkgray;
 	color: yellow;
+}
+img {
+	width: 100%;
+	height: auto;
 }
 .cf:after {
   content: "";
@@ -53,6 +59,7 @@ section h4 {
 		width:45%;
 		display: block;
 		float: left;
+		height: 850px;
 	}
 }
 
@@ -60,6 +67,7 @@ section h4 {
 @media screen and (min-width: 905px){
 	.card {
 		width:29%;
+		height: 905px;
 	}
 	
 }
