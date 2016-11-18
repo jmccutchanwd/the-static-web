@@ -1,0 +1,7 @@
+input:valid:focus {
+  background-color: rgba(39, 174, 96,1.0);
+}
+
+input:invalid:focus {
+  background-color: red;
+}
