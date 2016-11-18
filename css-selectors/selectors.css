@@ -44,6 +44,10 @@ write a CSS selector that makes any text input field have a height of 25px.
 
 /* --- Base Styles --- */
 
+header{
+	border: 1px solid rgba(44, 62, 80,1.0);
+}
+
 
 
 
