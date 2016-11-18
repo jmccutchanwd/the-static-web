@@ -12,6 +12,7 @@ body {
 
 h1, h2, h3, h4, h6, p {
 	padding-left: 20px;
+	color: rgba(44, 62, 80,1.0);
 }
 
 #wrapper {
