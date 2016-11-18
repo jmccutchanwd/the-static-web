@@ -4,17 +4,17 @@ The header element should have a 1px border. Color, you pick.(Done)
 
 Convert the ul in the navigation element into a series of horizontal 
 links with # as the href value, without bullets, and have some space 
-between them horizontally.
+between them horizontally.(Done)
 
 Ensure that the navigation is semantically marked as such 
-(i.e. wrap it in the correct HTML tag).
+(i.e. wrap it in the correct HTML tag).(Done)
 
 Any text in an element with class "disabled" should be colored grey, 
 unless it is inside an anchor tag. If inside an anchor, it should be 
-colored purple.
+colored purple.(Done)
 
 Any text inside an element with a class of "active" should be colored 
-yellow.
+yellow.(Done)
 
 Section elements should be contained within an article element.
 
@@ -70,14 +70,23 @@ header a{
     margin-right: 5px;
     text-decoration: none;
 }
+
 .cf:after {
   content: "";
   display: table;
   clear: both;
 }
 
+.disabled{
+	color:rgba(127, 140, 141,1.0);
+}
 
-
+a.disabled{
+	color: rgba(155, 89, 182,1.0);
+}
+.active{
+	color:rgba(241, 196, 15,1.0);
+}
 
 
 
