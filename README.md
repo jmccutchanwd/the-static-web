@@ -28,5 +28,6 @@ This repository contains the exercises from Part 2 of the Front End Course.
 ## JavaScript
 
 * [Colored Reindeer](https://github.com/jmccutchanwd/the-static-web/tree/master/reindeer) | - [x] In Progess - [ ] Complete
+* [Practicing Iteration With For Loops](https://github.com/jmccutchanwd/the-static-web/tree/master/for-loops) | - [x] In Progess - [ ] Complete
 
 ***
