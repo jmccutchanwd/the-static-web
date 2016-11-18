@@ -32,7 +32,7 @@ This repository contains the exercises from Part 2 of the Front End Course.
 * [Boy Bands and Vegetables](https://github.com/nashville-software-school/front-end-milestones/blob/master/2-the-static-web/exercises/SW_JS_BOYBANDS.md) | - [x] In Progess - [ ] Complete
 * [Counting Coins](https://github.com/jmccutchanwd/the-static-web/tree/master/coins) | - [x] In Progess - [ ] Complete
 * [Temperature Converter](https://github.com/jmccutchanwd/the-static-web/tree/master/converter) | - [x] In Progess - [ ] Complete
-* []() | - [x] In Progess - [ ] Complete
+* [Student Grades](https://github.com/jmccutchanwd/the-static-web/tree/master/grades) | - [x] In Progess - [ ] Complete
 * []() | - [x] In Progess - [ ] Complete
 
 ***
