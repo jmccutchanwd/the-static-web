@@ -37,6 +37,6 @@ This repository contains the exercises from Part 2 of the Front End Course.
 
 ***
 
-## JavaScript
+## In-class Exercises
 
 * [Sonnet](https://github.com/jmccutchanwd/the-static-web/tree/master/sonnet) | - [x] In Progess - [ ] Complete
