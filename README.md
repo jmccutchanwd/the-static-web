@@ -43,9 +43,13 @@ This repository contains the exercises from Part 2 of the Front End Course.
 
 * [Sonnet](https://github.com/jmccutchanwd/the-static-web/tree/master/sonnet) | - [x] In Progess - [ ] Complete
 
+***
+
 ## Treehouse Developer Course
 
 * 13/21 Modules Completed | Current Module In Progress - AJAX Basics 
+
+***
 
 ## A Smarter Way to Learn JavaScript
 
