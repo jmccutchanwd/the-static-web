@@ -20,8 +20,8 @@ This repository contains the exercises from Part 2 of the Front End Course.
 * [Using Basic Relationship Selectors](https://github.com/jmccutchanwd/the-static-web/tree/master/css-selectors) | - [ ] In Progress - [x] Complete
 * [Validate Your Banking Form](https://github.com/jmccutchanwd/the-static-web/tree/master/validate-application) | - [ ] In Progress - [x] Complete
 * [Interactive Navigation Bar](https://github.com/jmccutchanwd/the-static-web/tree/master/interactive-navigation) | - [ ] In Progress - [x] Complete
-* [Pseudo-classes](https://github.com/jmccutchanwd/the-static-web/tree/master/pseudo-classes) | - [x] In Progress - [ ] Complete
-* [Music History 01](https://github.com/jmccutchanwd/musichistory-boilerplate) | - [x] In Progress - [ ] Complete
+* [Pseudo-classes](https://github.com/jmccutchanwd/the-static-web/tree/master/pseudo-classes) | - [ ] In Progress - [x] Complete
+* [Music History 01](https://github.com/jmccutchanwd/musichistory-boilerplate) | - [ ] In Progress - [x] Complete
 * [Zen Garden](https://github.com/jmccutchanwd/the-static-web/tree/master/zen-garden) | - [x] In Progress - [ ] Complete
 
 
