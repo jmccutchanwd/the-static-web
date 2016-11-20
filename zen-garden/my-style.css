@@ -127,9 +127,7 @@ h3{
 /* --- smartphone landscape mode --- */
 
 @media screen and (min-width: 480px){
-	h3{
-		color:red;/* --- REMOVE AFTER TESTING */
-		}
+
 	#design-selection{
 		width:50%;
 		float:left;
@@ -159,9 +157,6 @@ h3{
 		max-width: 1000px;
 		margin: 0 auto;
 	}
-	h3{
-		color:#fff;/* --- REMOVE AFTER TESTING */
-		}
 	#design-selection{
 		width:30%;
 		float:left;
@@ -173,18 +168,41 @@ h3{
 	}
 	#zen-preamble{
 		width:50%;
-		/*position: relative;*/
+		position: relative;
 	}
-	.preamble::after{
-		content: url(images/enlighten.png);
-		width:50px;
-		height: 50px;
-		opacity: 0.3;
-		position: absolute;
-		top: 220px;
-		
+	#zen-explanation{
+		width: 70%;
+	}
+	
+	#zen-participation{
+		width: 60%;
+		float:right;
+	}
+	#zen-benefits{
+		width: 60%;
+	}
+	#zen-requirements{
+		width: 70%;
+		float:right;
+	}
+	footer::before{
+		content: "";
+  		display: table;
+  		clear: both;
 	}
 }
+
+@media screen and (min-width: 750px){
+
+	h1{
+		font-size: 3.2em;
+		color: rgba(255, 255, 255, 0.8);
+	}
+	header{
+    	border-left: 300px solid rgba(211, 84, 0,0.5);
+    	border-top: 300px solid rgba(211, 84, 0,0.2);
+    	margin-top: 0;
+	}
 
 /* ------------------ end  ------------------ */
 
