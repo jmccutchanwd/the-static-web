@@ -40,7 +40,7 @@ html{}
 body{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 	background-color: #000;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 1em;
@@ -86,28 +86,32 @@ h3{
 #zen-summary{
 	color: rgba(255, 255, 255, 0.6);
 	margin-top: 150px;
+	padding: 5px 20px;
 }
 #zen-preamble{
 	color: rgba(255, 255, 255, 0.6);
 	background-color: rgba(24, 24, 21, .7);
 	margin-top: 150px;
+	padding: 5px 20px;
 }
 #zen-explanation{
 	color: rgba(255, 255, 255, 0.6);
 	background-color: rgba(24, 24, 21, .7);
 	margin-top: 150px;
+	padding: 5px 20px;
 }
 #zen-participation,#zen-benefits, 
 #zen-requirements, footer{
 	color: rgba(255, 255, 255, 0.6);
 	background-color: rgba(24, 24, 21, .7);
 	margin-top: 150px;
-	padding: 5px;
+	padding: 5px 20px;
 }
 .sidebar{
 	color: rgba(255, 255, 255, 0.6);
 	background-color: rgba(24, 24, 21, .4);
 	margin-top: 150px;
+	padding: 5px 20px;
 }
 
 /* ------------------ end  ------------------ */
