@@ -49,6 +49,8 @@ This repository contains the exercises from Part 2 of the Front End Course.
 
 * 13/21 Modules Completed | Current Module In Progress - AJAX Basics 
 
+* [Treehouse Profile](https://teamtreehouse.com/johnmccutchan)
+
 ***
 
 ## A Smarter Way to Learn JavaScript
