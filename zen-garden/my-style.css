@@ -40,13 +40,9 @@ html{}
 body{
 	margin: 0;
 	padding: 0;
-	/*box-sizing: border-box;*/
 	background-color: #000;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 1em;
-}
-/* --- Parallax Image Background --- */
-.page-wrapper{
 	background-color:rgba(236, 240, 241,1.0);
     background-image: url("images/dark-forrest.png");
     height: 100%; 
@@ -54,7 +50,11 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-	padding: 10px;
+
+}
+/* --- Parallax Image Background --- */
+.page-wrapper{
+	width:100%;
 }
 li{
 	list-style: none;
@@ -113,9 +113,74 @@ h3{
 	margin-top: 150px;
 	padding: 5px 20px;
 }
+.sidebar:after{
+	content: "";
+  	display: table;
+  	clear: both;
+}
 
 /* ------------------ end  ------------------ */
 
 
 /* --- Break Points --- */
+
+/* --- smartphone landscape mode --- */
+
+@media screen and (min-width: 480px){
+	h3{
+		color:red;/* --- REMOVE AFTER TESTING */
+		}
+	#design-selection{
+		width:50%;
+		float:left;
+	}
+	#design-archives,
+	#zen-resources{
+		width:46%;
+		float:right;
+	}
+	nav ul, #zen-resources ul{
+		padding: 0;
+	}
+	#design-selection ul, #design-archives ul, 
+	#zen-resources ul{
+		padding-left: 3%;
+	}
+	#design-selection ul{
+		margin-right: 2%;
+	}
+}
+
+/* --- large taablets and normal desktops --- */
+
+@media screen and (min-width: 660px){
+	
+	.page-wrapper{
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+	h3{
+		color:#fff;/* --- REMOVE AFTER TESTING */
+		}
+	#design-selection{
+		width:30%;
+		float:left;
+	}
+	#design-archives,
+	#zen-resources{
+		width:30%;
+		float:right;
+	}
+}
+
 /* ------------------ end  ------------------ */
+
+
+
+
+
+
+
+
+
+
