@@ -2,7 +2,7 @@
 
 This repository contains the exercises from Part 2 of the Front End Course.
 
-![Octocat](https://github.com/jmccutchanwd/the-static-web/blob/master/images/octocat-done.png)
+![Octocat](https://github.com/jmccutchanwd/the-static-web/blob/master/images/octocat_done.png)
 
 ***
 
