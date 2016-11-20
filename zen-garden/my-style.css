@@ -180,6 +180,7 @@ h3{
 	}
 	#zen-benefits{
 		width: 60%;
+		background-color: rgba(241, 196, 15,0.3);
 	}
 	#zen-requirements{
 		width: 70%;
@@ -189,6 +190,10 @@ h3{
 		content: "";
   		display: table;
   		clear: both;
+	}
+	footer{
+		background-color: rgba(39, 174, 96,0.4);
+		font-weight: bolder;
 	}
 }
 
@@ -201,6 +206,7 @@ h3{
 	header{
     	border-left: 300px solid rgba(211, 84, 0,0.5);
     	border-top: 300px solid rgba(211, 84, 0,0.2);
+    	border-right: none;
     	margin-top: 0;
 	}
 
