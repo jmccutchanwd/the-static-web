@@ -22,7 +22,7 @@ This repository contains the exercises from Part 2 of the Front End Course.
 * [Interactive Navigation Bar](https://github.com/jmccutchanwd/the-static-web/tree/master/interactive-navigation) | - [ ] In Progress - [x] Complete
 * [Pseudo-classes](https://github.com/jmccutchanwd/the-static-web/tree/master/pseudo-classes) | - [ ] In Progress - [x] Complete
 * [Music History 01](https://github.com/jmccutchanwd/musichistory-boilerplate) | - [ ] In Progress - [x] Complete
-* [Zen Garden](https://github.com/jmccutchanwd/the-static-web/tree/master/zen-garden) | - [x] In Progress - [ ] Complete
+* [Zen Garden](https://github.com/jmccutchanwd/the-static-web/tree/master/zen-garden) | - [ ] In Progress - [x] Complete
 
 
 ***
