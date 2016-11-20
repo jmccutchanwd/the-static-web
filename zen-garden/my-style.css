@@ -30,6 +30,12 @@
 
 /* --- Basic Styles --- */
 
+@font-face {
+  font-family: 'h1font';
+  src: url('fonts/metro-webfont.woff2') format('woff2'),
+       url('fonts/metro-webfont.woff') format('woff'),
+}
+
 html{}
 body{
 	margin: 0;
@@ -40,7 +46,7 @@ body{
 	font-size: 1em;
 }
 .page-wrapper{
-	background-color: #fff;
+	background-color:rgba(236, 240, 241,1.0);
 	padding: 10px;
 }
 li{
@@ -49,6 +55,24 @@ li{
 a{
 	text-decoration: none;
 	color:rgba(41, 128, 185,1.0);
+}
+header{
+	/*height: 0;*/
+    /*width: 0;*/
+    border-left: 100px solid rgba(41, 128, 185,1.0);
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-top: 100px solid transparent;
+    transform: rotate(0deg);
+    /*overflow: hidden;*/
+}
+header h1{
+	font-family: h1font, Tahoma, Geneva, sans-serif;
+	font-size: 3.0em;
+	margin-left: 20px;
+}
+header h2{
+	margin-left: 20px;
 }
 
 
