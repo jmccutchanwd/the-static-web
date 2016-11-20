@@ -47,6 +47,12 @@ body{
 }
 .page-wrapper{
 	background-color:rgba(236, 240, 241,1.0);
+    background-image: url("images/forrest.png");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 	padding: 10px;
 }
 li{
@@ -54,12 +60,12 @@ li{
 }
 a{
 	text-decoration: none;
-	color:rgba(41, 128, 185,1.0);
+	color:rgba(211, 84, 0,0.8);
 }
 header{
 	/*height: 0;*/
     /*width: 0;*/
-    border-left: 150px solid rgba(41, 128, 185,1.0);
+    border-left: 150px solid rgba(211, 84, 0,0.5);
     border-right: 100px solid transparent;
     border-bottom: 100px solid transparent;
     border-top: 100px solid transparent;
@@ -70,12 +76,24 @@ header h1{
 	font-family: headerFont;
 	font-size: 1.8em;
 	margin-left: 20px;
-	color:rgba(41, 128, 185,1.0);
+	color:rgba(211, 84, 0,0.8);
 }
 header h2{
 	margin-left: 20px;
+	color: rgba(255, 255, 255, 0.8);
 }
-
+#zen-summary{
+	color: rgba(255, 255, 255, 0.8);
+}
+#zen-preamble{
+	color: rgba(255, 255, 255, 0.8);
+}
+#zen-supporting{
+	color: rgba(255, 255, 255, 0.8);
+}
+.sidebar{
+	color: rgba(255, 255, 255, 0.8);
+}
 
 /* ------------------ end  ------------------ */
 
