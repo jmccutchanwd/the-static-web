@@ -55,4 +55,4 @@ This repository contains the exercises from Part 2 of the Front End Course.
 
 ## A Smarter Way to Learn JavaScript
 
-* 53/89 Chapters Completed
+* 54/89 Chapters Completed
