@@ -1,0 +1,16 @@
+h1{
+	color:red;
+}
+.orange{
+	background-color: rgba(243, 156, 18,1.0);
+	color: #fff;
+}
+.blue{
+	background-color: rgba(52, 152, 219,1.0);
+	color: #fff;
+}
+
+.img-size{
+	width: 150px;
+	height: auto;
+}
