@@ -1,3 +1,5 @@
+// ---- John McCutchan
+
 /*
 Colored reindeer
 
@@ -61,7 +63,7 @@ hohohoElement.innerHTML = holder;
 
 
 
-// document.getElementById("coloredReindeer").innerHTML = newReindeer + "<br>";
+// complete.
 
 
 
