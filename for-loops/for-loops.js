@@ -76,7 +76,7 @@ value is greater than 120.
 */
 
 
-for (var i = 5; i < 120; i+5) {
+for (var i = 5; i < 120; i+=5) {
   console.log(i);
 }
 
