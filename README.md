@@ -30,7 +30,7 @@ This repository contains the exercises from Part 2 of the Front End Course.
 ## JavaScript
 
 * [Colored Reindeer](https://github.com/jmccutchanwd/the-static-web/tree/master/reindeer) | - [x] In Progess - [ ] Complete
-* [Practicing Iteration With For Loops](https://github.com/jmccutchanwd/the-static-web/tree/master/for-loops) | - [x] In Progess - [ ] Complete
+* [Practicing Iteration With For Loops](https://github.com/jmccutchanwd/the-static-web/tree/master/for-loops) | - [ ] In Progess - [x] Complete
 * [Boy Bands and Vegetables](https://github.com/nashville-software-school/front-end-milestones/blob/master/2-the-static-web/exercises/SW_JS_BOYBANDS.md) | - [x] In Progess - [ ] Complete
 * [Counting Coins](https://github.com/jmccutchanwd/the-static-web/tree/master/coins) | - [x] In Progess - [ ] Complete
 * [Temperature Converter](https://github.com/jmccutchanwd/the-static-web/tree/master/converter) | - [x] In Progess - [ ] Complete
