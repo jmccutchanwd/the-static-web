@@ -92,6 +92,19 @@ for (var i = 4096; i > 1; i /= 2) {
   console.log(i);
 }
 
+/*
+Array iteration
+
+Create an array that contains the names of American Presidents. Loop over that array with a 
+for loop, and use string concatenation with console.log() to output the order and name of each 
+President (see example below).
+*/
+
+var presNames = ["Reagan", "Washington", "Jefferson", "Clinton"];
+
+for (var i = 0; i < presNames.length; i++) {
+  console.log("Number " + i + " is President " + presNames[i]);
+}
 
 
 
