@@ -44,18 +44,24 @@ Contact GitHub API Training Shop Blog About
 var colors = ["Blue", "Red", "Orange", "Purple", "Hazel", "Aquamarine", "Periwinkle", "Azure", 
 	"Fuchsia", "Chocolate", "Amber", "Amaranth"];
 var reindeer = ["Dasher", "Dancer", "Prancer", "Vixen", "Comet", "Cupid", "Donner", "Blitzen"];
-
+var holder="";
 
 for (i=0; i < reindeer.length; i++ ) {
-	var coloredReindeer = colors[i] + " " + reindeer[i];
-	console.log(coloredReindeer);
+	var newReindeer = colors[i] + " " + reindeer[i];
+
+	var list = newReindeer;
+	holder += "<li>"+list+"</li>"
+
+	console.log(list);
 }
-
 var hohohoElement = document.getElementById("coloredReindeer");
+hohohoElement.innerHTML = holder;
 
-console.log(hohohoElement);
 
 
+
+
+// document.getElementById("coloredReindeer").innerHTML = newReindeer + "<br>";
 
 
 
