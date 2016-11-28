@@ -56,6 +56,31 @@ element (e.g. li, div, p. etc...)
 */
 
 
+/*------ Global  ------*/
+var bands = ["Boyz II Men", "NSync", "New Kids on the Block", "98 Degrees", "One Direction"];
+var vegetables = ["Carrots", "Kale", "Zucchini", "Broccoli", "Squash"];
+var currentBand = "";
+var currentVeggie = "";
+/*------ Global END ------*/
+
+
+for (var i = 0; i < bands.length; i += 1) {
+	currentBand += "<li>"+bands[i]+"</li>";// Add the band names into the correct <div>
+    currentVeggie += "<li>"+vegetables[i]+"</li>";// Add the veggie names into the correct <div>
+    console.log(currentBand + currentVeggie);//THis is to see whats happening behind the scenes.
+}
+
+var bandElement = document.getElementById("boy-bands");//creates a Var to equal the OL that is 
+													   //tagged in the html
+bandElement.innerHTML = currentBand;//creates the LI list as looped from the For loop
+
+var veggieElement = document.getElementById("vegetables");
+veggieElement.innerHTML = currentVeggie;
+
+
+/* Completed */
+
+
 
 
 
