@@ -1,0 +1,33 @@
+/*--- John McCutchan ---*/
+
+/*--- Structure ---*/
+
+body{
+	font-family: arial;
+}
+.container{
+	margin-left: 20px;
+}
+button{
+	padding: 5px 20px;
+	border-radius: 5px;
+}
+ul{
+	padding-left:5px;
+}
+
+/*--- Structure END ---*/
+
+/*--- Skin ---*/
+
+button{
+	background-color: green;
+	color: white;
+}
+li{
+	list-style-type: none;
+}
+
+/*--- Skin END ---*/
+
+
