@@ -28,14 +28,21 @@ up the amount. Use the common American coins of quarters, dimes, nickels, and pe
   }
 
 */
+
+/*--- Global ---*/
+
 var money = 0;
 var coin="";
+
+/*--- Functions ---*/
 
 function myFunction() {
     var getAmount = prompt("Please enter a dollar amount");
     console.log(getAmount);
     money = getAmount * 100;
     console.log(money);
+    
+    /*--- Output Amount Entered to #entered ---*/
     coin = "<li>"+" Amount Entered: "+getAmount+"</li>"+"<br>";
     var result = document.getElementById("entered");
 	result.innerHTML = coin;
@@ -44,49 +51,50 @@ function myFunction() {
 
 function coinCounter () {
                          
-	var coinPurse = { // Initialize a JavaScript object to hold the coins
+	var coinPurse = { // Initialize a JavaScript Object to hold the coins
 		quarters:0,
 		dimes:0,
 		nickels:0,
 		pennies:0
 	};
   	console.log(coinPurse);	
-  	for (i = 0; i<= money; i++) {
-		if (money >= 25) {
-	  		coinPurse.quarters += 1;		
-	  		money -= 25;
-	  		console.log(coinPurse.quarters);
-	    	console.log("Money quarters " + money);
+  	for (i = 0; i<= money; i++) { // Quarters
+		if (money >= 25) { // test if there are any quarters
+	  		coinPurse.quarters += 1; // if so, add a quarter to the coin purse	
+	  		money -= 25; // if so, subtract a quarter for this iteration of the loop
+	  		console.log(coinPurse.quarters); //testing
+	    	console.log("Money quarters " + money); //testing
 	    }
 	}    
-	for (i = 0; i<= money; i++) {
+	for (i = 0; i<= money; i++) { // Dimes
 		if(money >= 10) {
 	    	coinPurse.dimes += 1;
 	    	money -= 10;
-	    	console.log(coinPurse.dimes);
-	    	console.log("Money dimes " + money);
+	    	console.log(coinPurse.dimes); //testing
+	    	console.log("Money dimes " + money); //testing
 	    }
 	}
-	for (i = 0; i<= money; i++) {   
+	for (i = 0; i<= money; i++) {  // Nickels
 	    if(money >= 5) {
 	    	coinPurse.nickels += 1;
 	    	money -= 5;
-	    	console.log(coinPurse.nickels);
-	    	console.log("Money nickels " + money);
+	    	console.log(coinPurse.nickels); //testing
+	    	console.log("Money nickels " + money); //testing
 	    }
 	}
-	for (i = 0; i<= money + 1; ++i) {
+	for (i = 0; i<= money + 1; ++i) { // Pennies
 		
 	    if (money >= 1) {
 	    	coinPurse.pennies += 1;
 	    	money -= 1;
-	    	console.log(coinPurse.pennies);
-	    	console.log("Money pennies " + money);
+	    	console.log(coinPurse.pennies); //testing
+	    	console.log("Money pennies " + money); //testing
 	    }
 	}
-	console.log("The remainder is " + money);
-	console.log(coinPurse);
+	console.log("The remainder is " + money); //testing
+	console.log(coinPurse); //testing
 	
+	/*--- Output Coins Counted to #coins ---*/
 	coin = "<li>"+coinPurse.quarters+" Quarters"+"</li>"+"<br>"+
 		   "<li>"+coinPurse.dimes+" Dimes"+"</li>"+"<br>"+
 		   "<li>"+coinPurse.nickels+" Nickels"+"</li>"+"<br>"+
@@ -96,31 +104,17 @@ function coinCounter () {
 	result.innerHTML = coin;
 }
 
+/*--- Complete ---*/
 
 
-// currentBand += "<li>"+bands[i]+"</li>";// Add the band names into the correct <div>
-//     currentVeggie += "<li>"+vegetables[i]+"</li>";// Add the veggie names into the correct <div>
-//     console.log(currentBand + currentVeggie);//THis is to see whats happening behind the scenes.
-// }
-
-// var bandElement = document.getElementById("boy-bands");//creates a Var to equal the OL that is 
-// 													   //tagged in the html
-// bandElement.innerHTML = currentBand;//creates the LI list as looped from the For loop
-
-
-
-
-// var coins = coinCounter();
-// console.log();
-
-
+/*--- Strategy during development
 
 //divide amount by quarters subtract from amount(loop counter is returned to coinpurse)
 //divide amount by dimes subtract from amount(loop counter is returned to coinpurse)
 //divide amount by nickels subtract from amount(loop counter is returned to coinpurse)
 //divide amount by pennies(loop counter is returned to coinpurse)
 
-
+------*/
 
 
 
