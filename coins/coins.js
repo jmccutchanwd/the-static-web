@@ -38,6 +38,8 @@ var coin="";
 
 function myFunction() {
     var getAmount = prompt("Please enter a dollar amount");
+    getAmount = Number(getAmount);
+    console.log(typeof getAmount);
     console.log(getAmount);
     money = getAmount * 100;
     console.log(money);
@@ -82,14 +84,16 @@ function coinCounter () {
 	    	console.log("Money nickels " + money); //testing
 	    }
 	}
-	for (i = 0; i<= money + 1; ++i) { // Pennies
-		
-	    if (money >= 1) {
+	for (i = 0; i<= money + 1; i++) { // Pennies
+		 console.log("Pennies loop before loop");
+	
+	    if (money >= 0) {
 	    	coinPurse.pennies += 1;
 	    	money -= 1;
 	    	console.log(coinPurse.pennies); //testing
 	    	console.log("Money pennies " + money); //testing
 	    }
+	    console.log("Pennies loop after loop");
 	}
 	console.log("The remainder is " + money); //testing
 	console.log(coinPurse); //testing
