@@ -76,10 +76,8 @@ function coinCounter () {
 	    }
 	}
 	for (i = 0; i<= money + 1; ++i) {
-		if (money % 1 === true) {
-			money = Math.floor(money);
-	    	console.log("After floor: " + money);
-	    } else if (money >= 0) {
+		
+	    if (money >= 1) {
 	    	coinPurse.pennies += 1;
 	    	money -= 1;
 	    	console.log(coinPurse.pennies);
