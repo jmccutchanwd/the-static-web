@@ -45,6 +45,10 @@ This repository contains the exercises from Part 2 of the Front End Course.
 
 ***
 
+## Personal Website
+
+* [Site](https://jmccutchanwd.github.io/index.html) | - [ ] In Progress - [x] Complete
+
 ## Treehouse Developer Course
 
 * 13/21 Modules Completed | Current Module In Progress - AJAX Basics 
