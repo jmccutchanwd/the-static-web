@@ -2,13 +2,35 @@
 <html>
 <head>
 	<title>Temperature Converter</title>
-	<link rel="stylesheet" type="text/css" href="styl.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div class="container">
-		<h1>Temperature Converter</h1>
-		<div></div>
+		<div>
+			<h1>Temperature Converter</h1>
+			<p>This converter will change a temperature entered from Fahrenheight to Celsius,
+			or Celsius to Fahrenheight.</p>
+		</div>
+		<div class="half">
+			<form>
+				<fieldset>
+	  				<legend>Temperature Converter</legend><br>
+	  				<label>Enter Temperature:</label>
+	  				<input type="text" name="inputTemp" id="inputTemp">
+	  				<br>
+	  				<br>
+					<input type="radio" name="temp" value="celsius" id="celsius" checked> Celsius
+					<input type="radio" name="temp" value="fahrenheight" id="fahrenheight"> Fahrenheight
+					<br>
+					<br>
+	  				<button type="button" id="convert">Convert Temp</button>
+	  				<br>
+	  				<br>
+	  			</fieldset>
+			</form>
+			<div id="result"></div>
+		</div>
 	</div>
-	<script type="text/javascript" src="converter.css"></script>
+	<script type="text/javascript" src="converter.js"></script>
 </body>
 </html>

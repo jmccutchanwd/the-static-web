@@ -6,10 +6,23 @@
 	width:80%;
 	margin: 0 auto;
 }
-
+.half{
+	width:50%;
+}
+button{
+	padding: 10px 20px;
+}
 /*--- Structure END ---*/
 
 
 /*--- Skin ---*/
+
+body{
+	font-family: arial;
+}
+button{
+	background-color: rgba(192, 57, 43, 1);
+	color:rgba(255, 255, 255, 1);
+}
 
 /*--- Skin END ---*/
