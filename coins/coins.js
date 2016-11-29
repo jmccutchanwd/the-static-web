@@ -25,6 +25,13 @@ Write a program that will convert a dollar amount to the number of coins that ma
   }
 
 */
+function myFunction() {
+    var person = prompt("Please enter your name", "Harry Potter");
+    
+    if (person != null) {
+        document.getElementById("demo").innerHTML= "Hello " + person + "! How are you today?";
+    }
+}
 
 function coinCounter () {
   // Initialize a JavaScript object to hold the coins
@@ -35,7 +42,7 @@ function coinCounter () {
   return coinPurse;
 }
 
-var coins = coinCounter()
+var coins = coinCounter();
 console.log();
-Contact GitHub API Training Shop Blog About
+
 
