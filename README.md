@@ -34,7 +34,7 @@ This repository contains the exercises from Part 2 of the Front End Course.
 * [Boy Bands and Vegetables](https://github.com/jmccutchanwd/the-static-web/tree/master/boybands) | - [ ] In Progess - [x] Complete
 * [Counting Coins](https://github.com/jmccutchanwd/the-static-web/tree/master/coins) | - [ ] In Progess - [x] Complete
 * [Temperature Converter](https://github.com/jmccutchanwd/the-static-web/tree/master/converter) | - [ ] In Progess - [x] Complete
-* [Student Grades](https://github.com/jmccutchanwd/the-static-web/tree/master/grades) | - [x] In Progess - [ ] Complete
+* [Student Grades](https://github.com/jmccutchanwd/the-static-web/tree/master/grades) | - [ ] In Progess - [x] Complete
 * [Music History 2](https://github.com/jmccutchanwd/musichistory-boilerplate/tree/version-2) | - [x] In Progess - [ ] Complete
 
 ***
