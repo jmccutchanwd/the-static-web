@@ -6,7 +6,7 @@
 </head>
 <body>
 	<div class="container">
-		<div>
+		<div class="half">
 			<h1>Temperature Converter</h1>
 			<p>This converter will change a temperature entered from Fahrenheight to Celsius,
 			or Celsius to Fahrenheight.</p>
@@ -23,19 +23,13 @@
 					<input type="radio" name="temp" value="fahrenheight" id="fahr"> Fahrenheight
 					<br>
 					<br>
-	  				<button type="button" id="converter">Convert Temp</button>
+	  				<button type="button" id="converter" onkeyup="putNumberIn()" >Convert Temp</button>
 	  				<br>
 	  				<br>
 	  			</fieldset>
 			</form>
 			<div>
 				<h2>Converted Temperature</h2>
-				<ul>
-					<li>Red Range: > 32C, > 90F</li>
-					<li>Blue Range: < 0C, < 32F</li>
-					<li>(>= 0C <= 32C)</li> 
-					<li>(>= 32F <= 90F)</li>
-				</ul>
 				<div id="result"></div>
 			</div>
 		</div>

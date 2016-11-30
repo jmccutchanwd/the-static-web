@@ -71,14 +71,10 @@ button.addEventListener("click", determineConverter);
 
 /*colors
 If the temperature is greater than 90F/32C the color of the converted temperature should be red.
-
 If the temperature is less than 32F/0C the color of the converted temperature should be blue.
-
 For any other temperature, the color should be green.
-*/
 
-/*
-conversion formulas: F > C [(F - 32) * 5/9],  C > F [(C * 9/5) + 32]
+Conversion formulas: F > C [(F - 32) * 5/9],  C > F [(C * 9/5) + 32]
 */
 
 
@@ -90,6 +86,7 @@ var button = document.getElementById("converter");// button variable
 var temp = document.getElementsByName("temp");// var that is celsius or fahrenheight
 var convertedTemp = 0;// var that hold the converted number
 
+document.getElementById("inputTemp").value = 0;// sets initial input field placeholder to zero
 
 button.addEventListener("click", determineConverter);// button listener
 
@@ -100,33 +97,59 @@ function determineConverter() {
 	inputTemp = document.getElementById("inputTemp").value;// get number from input field
 	for(var i = 0; i < 2; i++) {
 		if((temp[i].checked) && (temp[i].value === "celsius")){ // radio checked and equals celsius
-    		convertedTemp = Math.floor((inputTemp - 32) * (5 / 9)) + "C";// converts # to celsius
-    		console.log(convertedTemp + "converted to C");// testing
+    		convertedTemp = Math.floor((inputTemp - 32) * (5 / 9));// converts # to celsius
+    		console.log(convertedTemp + " converted to C");// testing
+    		if(convertedTemp > "32"){
+    			convertedTemp += "C";
+    			redText();
+    		} else if(convertedTemp < "0"){
+    			convertedTemp += "C";
+    			blueText();
+    		} else {
+    			convertedTemp += "C";
+    			document.getElementById("result").innerHTML = convertedTemp;// print to to DIV
+    			document.getElementById("result").style.color = "black";
+    			document.getElementById("result").style.fontSize = "3em";	
+    		}
     		break;
     	} else {
-    		convertedTemp = Math.floor((inputTemp * (9 / 5)) + 32) + "F";// else equals fahrenheight
+    		convertedTemp = Math.floor((inputTemp * (9 / 5)) + 32);// converts to fahrenheight
     		console.log(convertedTemp + " converted to F");// testing
+    		if(convertedTemp > "90"){
+    			convertedTemp += "F";
+    			redText();
+    		}else if(convertedTemp < "32"){
+    			convertedTemp += "F";
+    			blueText();
+    		}else{
+    			convertedTemp += "F";
+    			document.getElementById("result").innerHTML = convertedTemp;// print to to DIV
+    			document.getElementById("result").style.color = "black";
+    			document.getElementById("result").style.fontSize = "3em";
+    		}
     	}
-    
-    }
-    
-    if((convertedTemp > "32C") || (convertedTemp > "90F")){ // check for Red conditions
-    	console.log("Red Branch");
-    	document.getElementById("result").style.color = "red";
-    	document.getElementById("result").style.fontSize = "3em";
-    }
-    if((convertedTemp < "0C") || (convertedTemp < "32F")){ // check for Blue conditions
-    	console.log("Blue Branch");
-    	document.getElementById("result").style.color = "blue";
-    	document.getElementById("result").style.fontSize = "3em";
-    }
-    if(((convertedTemp >= "0C") || (convertedTemp <= "32C")) || ((convertedTemp >= "32F") || (convertedTemp <= "90F"))){
-    	console.log("Neutral Branch");
-    	document.getElementById("result").style.color = "black";
-    	document.getElementById("result").style.fontSize = "3em";
-    }
+    } 
+    console.log("Neutral");  
     document.getElementById("result").innerHTML = convertedTemp;// print to to DIV	
 }
+
+
+
+function redText() {
+	console.log("Red Branch");
+    document.getElementById("result").style.color = "red";
+    document.getElementById("result").style.fontSize = "3em";
+    document.getElementById("result").innerHTML = convertedTemp;// print to to DIV	
+}
+
+function blueText() {
+	console.log("Blue Branch");
+    document.getElementById("result").style.color = "blue";
+    document.getElementById("result").style.fontSize = "3em";// print to to DIV	
+}
+
+
+
 
 
 
