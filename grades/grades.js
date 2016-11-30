@@ -45,14 +45,32 @@ function sortGrades(){
 		}
 		
 	}
+	// an array cannot be passed as an argument without using a prototype, apply() in this case.
+	var minGrade = Math.min.apply(null, scores);
+	var maxGrade = Math.max.apply(null, scores);
+	console.log(minGrade + " " + maxGrade);
 	console.log("A:" + gradeA + ", " + "B:" + gradeB + ", " + "C:" + gradeC + ", "
 		+ "D:" + gradeD + ", " + "F:" + gradeF);
+	document.getElementById("grades").innerHTML = "<h2>" + "Grades by Quantity" + "</h2>" + "<p>" +"A:" + gradeA + ", " + "B:" + gradeB + ", " + "C:" + 
+		gradeC + ", " + "D:" + gradeD + ", " + "F:" + gradeF + "</p>" + "<h3>" + "The Lowest Grade" + "</h3>" + 
+		"<p>" + minGrade + "</p>" + "<h3>" + "The Highest Grade" + "</h3>" + "<p>" + maxGrade + "</p>"
 }
 
 
 
+/*
+How many of each grade?**
 
-// 
+Math.min()
+Math.max()
+
+What is the lowest grade?
+What is the highest grade?
+
+Math.max.apply(null, numbers) // 4
+Math.min.apply(null, numbers) // 1
+*/
+ 
 
 
 

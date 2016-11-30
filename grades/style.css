@@ -2,9 +2,14 @@
 
 
 /*--- Structure ---*/
+body{
+	width:100%;
+	margin-top: 0;
+}
 .container{
 	width: 80%;
 	margin: 0 auto;
+	padding: 10px;
 }
 button{
 	margin-top: 20px;
@@ -22,8 +27,13 @@ button{
 /*--- Skins ---*/
 body{
 	font-family: arial;
+	background-color: rgba(44, 62, 80,1.0);
+}
+.container{
+	background-color: rgba(241, 196, 15,1.0);
 }
 h1{
+	font-family: Verdana, Geneva, sans-serif;
 	color: rgba(44, 62, 80, 1);
 }
 button{
