@@ -77,6 +77,11 @@ If the temperature is less than 32F/0C the color of the converted temperature sh
 For any other temperature, the color should be green.
 */
 
+/*
+conversion formulas: F > C [(F - 32) * 5/9],  C > F [(C * 9/5) + 32]
+*/
+
+
 
 /*--- Global ---*/
 
@@ -95,33 +100,34 @@ function toFahrenheit () {
 // ---- Get a reference to the button element in the DOM
 var button = document.getElementById("converter");// button variable
 var temp = document.getElementsByName("temp");// var that is celsius or fahrenheight
-// var tempVariance = 0;
-// var inputTemp = "";
+var convertedTemp = 0;// var that hold the converted number
 
-
-button.addEventListener("click", determineConverter);// Assign a function to be executed 
-//when the button is clicked
+button.addEventListener("click", determineConverter);// button listener
 
 
 /*--- This function determines which radio button is selected. ---*/
 function determineConverter() {
 	var choices = [];// holds celsius or fahrenheight, put here to zero
-	inputTemp = document.getElementById("inputTemp").value;
+	inputTemp = document.getElementById("inputTemp").value;// get number from input field
 	for(var i = 0; i < 2; i++) {
-		if((temp[i].checked) && (temp[i].value === "celsius")){ // radio checked?
-    		// choices.push(temp[i].value); // if so, hold its value in val
-    		console.log("branch 1 celsius");
+		if((temp[i].checked) && (temp[i].value === "celsius")){ // radio checked and equals celsius
+    		convertedTemp = Math.floor((inputTemp - 32) * (5 / 9)) + "C";// converts # to celsius
+    		console.log(convertedTemp + "__C");
+    		if(convertedTemp > "90F"){
+    			console.log("Red");
+    		}
     		break;
     	} else {
-    		console.log("branch 2 fahrenheight");
+    		convertedTemp = Math.floor((inputTemp * (9 / 5)) + 32) + "F";// else equals fahrenheight
+    		console.log(convertedTemp + "__F");
     	}
-    	
-    
     }
-    console.log("input temp: " + inputTemp);
+    
+    document.getElementById("result").innerHTML = convertedTemp;
 }
 
-//conversion formulas (F - 32) * 5/9, (C * 9/5) + 32
+
+
 
 
 
