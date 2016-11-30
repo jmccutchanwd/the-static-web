@@ -92,22 +92,36 @@ function toFahrenheit () {
 
 }
 
-// Get a reference to the button element in the DOM
-var button = document.getElementById("converter");
+// ---- Get a reference to the button element in the DOM
+var button = document.getElementById("converter");// button variable
+var temp = document.getElementsByName("temp");// var that is celsius or fahrenheight
+// var tempVariance = 0;
+// var inputTemp = "";
 
-/*--- This function should determine which conversion should happen based 
-on which radio button is selected. ---*/
-function determineConverter (clickEvent) {
-	if (getElementById("cels").checked === true) {
-		console.log("Celsius selected");
-	} else {
-		console.log("Fahrenheight selected");
-	}
-  console.log("event", clickEvent);
+
+button.addEventListener("click", determineConverter);// Assign a function to be executed 
+//when the button is clicked
+
+
+/*--- This function determines which radio button is selected. ---*/
+function determineConverter() {
+	var choices = [];// holds celsius or fahrenheight, put here to zero
+	inputTemp = document.getElementById("inputTemp").value;
+	for(var i = 0; i < 2; i++) {
+		if((temp[i].checked) && (temp[i].value === "celsius")){ // radio checked?
+    		// choices.push(temp[i].value); // if so, hold its value in val
+    		console.log("branch 1 celsius");
+    		break;
+    	} else {
+    		console.log("branch 2 fahrenheight");
+    	}
+    	
+    
+    }
+    console.log("input temp: " + inputTemp);
 }
 
-// Assign a function to be executed when the button is clicked
-button.addEventListener("click", determineConverter);
+//conversion formulas (F - 32) * 5/9, (C * 9/5) + 32
 
 
 
@@ -118,12 +132,6 @@ button.addEventListener("click", determineConverter);
 
 
 
-// if ( radios[i].checked ) { // radio checked?
-//             val = radios[i].value; // if so, hold its value in val
-//             break; // and break out of for loop
-//         }
-
-// var x = document.getElementById("myRadio").value;
 
 
 
