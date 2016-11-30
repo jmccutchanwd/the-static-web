@@ -41,7 +41,7 @@ This repository contains the exercises from Part 2 of the Front End Course.
 
 ## In-class Exercises
 
-* [Sonnet](https://github.com/jmccutchanwd/the-static-web/tree/master/sonnet) | - [x] In Progess - [ ] Complete
+* [Sonnet](https://github.com/jmccutchanwd/the-static-web/tree/master/sonnet) | - [ ] In Progess - [x] Complete
 
 ***
 
