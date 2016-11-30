@@ -85,22 +85,11 @@ conversion formulas: F > C [(F - 32) * 5/9],  C > F [(C * 9/5) + 32]
 
 /*--- Global ---*/
 
-var returnTemp = "";
-
-
-
-function toCelsius () {
-
-}
-
-function toFahrenheit () {
-
-}
-
 // ---- Get a reference to the button element in the DOM
 var button = document.getElementById("converter");// button variable
 var temp = document.getElementsByName("temp");// var that is celsius or fahrenheight
 var convertedTemp = 0;// var that hold the converted number
+
 
 button.addEventListener("click", determineConverter);// button listener
 
@@ -112,18 +101,26 @@ function determineConverter() {
 	for(var i = 0; i < 2; i++) {
 		if((temp[i].checked) && (temp[i].value === "celsius")){ // radio checked and equals celsius
     		convertedTemp = Math.floor((inputTemp - 32) * (5 / 9)) + "C";// converts # to celsius
-    		console.log(convertedTemp + "__C");
-    		if(convertedTemp > "90F"){
-    			console.log("Red");
-    		}
+    		console.log(convertedTemp + "converted to C");// testing
     		break;
     	} else {
     		convertedTemp = Math.floor((inputTemp * (9 / 5)) + 32) + "F";// else equals fahrenheight
-    		console.log(convertedTemp + "__F");
+    		console.log(convertedTemp + " converted to F");// testing
     	}
-    }
     
-    document.getElementById("result").innerHTML = convertedTemp;
+    }
+    document.getElementById("result").innerHTML = convertedTemp;// print to to DIV
+    if((convertedTemp > "32C") || (convertedTemp > "90F")){ // check for Red conditions
+    	console.log("Red Branch");
+    	document.getElementById("result").style.color = "red";
+    	document.getElementById("result").style.fontSize = "3em";
+    }
+    if((convertedTemp < "0C") || (convertedTemp < "32F")){ // check for Blue conditions
+    	console.log("Blue Branch");
+    	document.getElementById("result").style.color = "blue";
+    	document.getElementById("result").style.fontSize = "3em";
+    }
+    	
 }
 
 
