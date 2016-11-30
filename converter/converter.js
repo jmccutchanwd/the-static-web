@@ -109,7 +109,7 @@ function determineConverter() {
     	}
     
     }
-    document.getElementById("result").innerHTML = convertedTemp;// print to to DIV
+    
     if((convertedTemp > "32C") || (convertedTemp > "90F")){ // check for Red conditions
     	console.log("Red Branch");
     	document.getElementById("result").style.color = "red";
@@ -120,7 +120,12 @@ function determineConverter() {
     	document.getElementById("result").style.color = "blue";
     	document.getElementById("result").style.fontSize = "3em";
     }
-    	
+    if(((convertedTemp >= "0C") || (convertedTemp <= "32C")) || ((convertedTemp >= "32F") || (convertedTemp <= "90F"))){
+    	console.log("Neutral Branch");
+    	document.getElementById("result").style.color = "black";
+    	document.getElementById("result").style.fontSize = "3em";
+    }
+    document.getElementById("result").innerHTML = convertedTemp;// print to to DIV	
 }
 
 
