@@ -6,8 +6,11 @@
 	width: 80%;
 	margin: 0 auto;
 }
-
-
+button{
+	margin-top: 20px;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
 
 
 /*--- Structure END ---*/
@@ -20,8 +23,13 @@
 body{
 	font-family: arial;
 }
-
-
+h1{
+	color: rgba(44, 62, 80, 1);
+}
+button{
+	background-color: rgba(44, 62, 80, 1);
+	color:rgba(255, 255, 255, 1);
+}
 
 
 
