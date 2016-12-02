@@ -35,7 +35,7 @@ This repository contains the exercises from Part 2 of the Front End Course.
 * [Counting Coins](https://github.com/jmccutchanwd/the-static-web/tree/master/coins) | - [ ] In Progess - [x] Complete
 * [Temperature Converter](https://github.com/jmccutchanwd/the-static-web/tree/master/converter) | - [ ] In Progess - [x] Complete
 * [Student Grades](https://github.com/jmccutchanwd/the-static-web/tree/master/grades) | - [ ] In Progess - [x] Complete
-* [Music History 2](https://github.com/jmccutchanwd/musichistory-boilerplate/tree/version-2) | - [x] In Progess - [ ] Complete
+* [Music History 2](https://github.com/jmccutchanwd/musichistory-boilerplate/tree/version-2) | - [ ] In Progess - [x] Complete
 
 ***
 
