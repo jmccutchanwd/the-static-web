@@ -60,3 +60,7 @@ This repository contains the exercises from Part 2 of the Front End Course.
 ## A Smarter Way to Learn JavaScript
 
 * 54/89 Chapters Completed
+
+#Challenge
+
+* [Static Web Challenge](https://github.com/nss-day-cohort-17/mastery-exercise-static-web-js-jmccutchanwd)
